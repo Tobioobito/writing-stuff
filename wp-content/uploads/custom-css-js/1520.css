@@ -1,0 +1,92 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.wp-dark-mode-switcher.floating, .wp-dark-mode-side-toggle-wrap.floating, .moon-light, .sun-light{ /*Button Dark Mode*/
+	margin-bottom: 0px;
+	bottom : auto;
+    top:13px;
+
+}
+
+.wp-dark-mode-active body, .wp-dark-mode-active #site-navigation {
+/*background-color:rgb(44, 46, 46);*/
+background-color:rgb(36, 37, 37);
+}
+
+.wp-dark-mode-active .menu-toggle .icon-bar{
+	   background-color:rgb(255 0 0);
+	
+}
+
+.wp-dark-mode-active .post-content, .wp-dark-mode-active #secondary .widget, .wp-dark-mode-active .read-more a, .wp-dark-mode-active .nav-links, .wp-dark-mode-active .next-post, .wp-dark-mode-active .prev-post, .wp-dark-mode-active .post-comments, .wp-dark-mode-active .comment-respond, .wp-dark-mode-active .comments-area, .wp-dark-mode-active input{
+	/*background-color:rgb(36, 37, 37);*/
+	background-color:rgb(44, 46, 46);
+	
+}
+
+.wp-dark-mode-active .main-navigation .primary-menu>li>a {
+	   border-bottom: 0px;
+	
+}
+
+
+.wp-dark-mode-active .navbar-brand:hover{
+	color:white;
+}
+
+.wp-dark-mode-switcher.style-3.active .toggle{
+	
+	background:white;
+	
+}
+
+.wp-dark-mode-active .btn-default:visited{
+	
+	color:rgb(190, 183, 171);
+	
+}
+
+.wp-dark-mode-active h3 { /*Sous-titre dans l'article*/
+	color:rgb(209, 203, 194);
+}
+
+.wp-dark-mode-active .widget-title {
+	color:rgb(209, 203, 194);
+}
+
+.wp-dark-mode-active .entry-title  {
+	color:rgb(209, 203, 194);
+}
+
+.wp-dark-mode-active .entry-date, .wp-dark-mode-active .comments-link, .wp-dark-mode-active .post-category>a   {
+	color:rgb(209, 203, 194);
+}
+
+.wp-dark-mode-active .infobulle-mot:hover .infobulle-contenu {
+	
+	background-color:white !important;
+	color: black !important;
+	
+}
+
+.wp-dark-mode-active .infobulle-mot .infobulle-contenu::after{
+
+	 border-color: white transparent transparent transparent;
+}
+/*Section Commentaire*/
+.wp-dark-mode-active #comments input{
+	background-color: rgb(36, 37, 37);
+    color: white;
+	
+}
+
+.wp-dark-mode-active #comment{
+	background-color: rgb(36, 37, 37);
+    color: rgb(199, 192, 181);
+	
+}
+
+.wp-dark-mode-active #comment:focus{
+    color: rgb(199, 192, 181);
+	
+}</style>
+<!-- end Simple Custom CSS and JS -->

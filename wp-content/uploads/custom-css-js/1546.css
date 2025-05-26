@@ -1,0 +1,46 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.comment-form-author{
+	width:30%;
+	float:left;
+	margin-right:5%;
+}
+
+#author{
+	color:#141414;
+	background-color:#f4f4f4;
+}
+
+.comment-form-email{
+	width:30%;	
+	float:left;
+	margin-right:5%;
+}
+
+#email{
+	color:#141414;
+	background-color:#f4f4f4;
+}
+
+.comment-form-url{
+	width:30%;
+	float:left;
+}
+
+#url{
+	color:#141414;
+	background-color:#f4f4f4;
+}
+
+#comment{
+	background-color:#f4f4f4;
+}
+
+#comment:focus{
+	
+	color:#141414;
+	
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->

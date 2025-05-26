@@ -1,0 +1,243 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+  .navbar-brand::first-letter {
+	margin-right: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+	padding-bottom: 2px;
+    background-color: #fb2056;
+    color: white;
+	text-decoration : underline;
+  }
+
+
+/*
+.dashicons-twitter{
+	
+	color:rgb(29, 155, 240);
+	
+}
+*/
+
+.about-button{
+
+	margin: 0;
+    position: absolute;
+    top: 82.5%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+	
+}
+.about-title{
+
+	color: #fff;
+	font-size: 0.8em;
+	font-weight: 400;
+	padding: 0.2em 0em;
+	letter-spacing: 5px;
+	text-transform: capitalize;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 2px solid;
+	padding: 10px;
+	
+}
+
+.about-title:hover{
+
+	background-color: white;
+	color:black;
+	border-color:white;
+
+}
+
+.site-header{
+	
+	margin-bottom:36px;
+	
+}
+
+.entry-summary p:not(.read-more){ /*Transparence preview article*/
+	
+	mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+	
+}
+
+.entry-content a{
+	
+color: #fb2056;
+	
+}
+
+.entry-content a:hover{
+	
+text-decoration: underline;
+	
+}
+
+.entry-header{
+
+ padding-top: 0em;	
+ padding-bottom: 0em;		
+
+}
+
+.entry-title{
+	margin-top:30px;
+	margin-bottom:20px;
+	font-size : 30px;
+	
+}
+
+.entry-date{
+	
+    padding-bottom: 5px;
+}
+
+.post-category{
+
+	float: left;
+	width: 33%;
+	text-align: right;
+
+}
+
+.post-date{
+
+	float: left;
+	width: 33%;
+}
+
+.post-comment{
+
+	float: left;
+	width: 33%;
+	text-align: left;
+}
+
+.entry-meta h5{ /* Ligne rouge de séparation entre les icones (post) et l'image de l'article (featured-image)*/
+		
+	margin-bottom:30px;		
+	
+}
+
+.featured-image{
+	
+	padding-top: 10px;
+    padding-bottom: 21px;
+}
+
+.featured-image img{
+	width : 50%;
+	margin-bottom: 0px; /* le margin-bottom fonctionne seulement pour les pages articles */
+	
+}
+
+
+.reader-mode{
+	color : black;
+}
+
+.reader-mode:hover{
+	color : #fb2056 !important;
+	cursor:pointer;
+}
+
+
+.change-width{
+	margin-left:15px;
+	color : black;
+}
+
+.change-width:hover{
+	color : #fb2056 !important;
+	cursor:pointer;
+}
+
+.increase-font-size{
+	color : black;
+}
+
+.increase-font-size:hover{
+	color : #fb2056 !important;
+	cursor:pointer;
+}
+
+.decrease-font-size{
+	margin-right: 15px;
+	margin-left:15px;
+	color : black;
+}
+
+.decrease-font-size:hover{
+	color : #fb2056 !important;
+	cursor:pointer;
+}
+	
+.entry-content>p:last-child{
+	
+	
+	margin-bottom:0px;
+	
+}
+
+.last-update{
+	
+	font-size: 14px;
+	font-style: italic;
+	color: #8d8d8d;
+	
+}
+
+.entry-footer{
+	padding-bottom: 35px !important;
+}
+
+.required{
+	
+	color:#fb2056;
+	
+}
+
+.single-post .post-content:before{
+	
+  content : "";
+  position: absolute;
+  left    : 15px;
+  height  : 15px;
+  width   : 15px;
+  border-top:5px solid #fb2056;
+  border-left:5px solid #fb2056;
+}
+
+.single-post .post-content:after{
+	
+  content : "";
+  position: absolute;
+top:0;
+  right    : 15px;
+  height  : 15px;
+  width   : 15px;
+  border-top:5px solid #fb2056;
+  border-right:5px solid #fb2056;
+}
+
+.featured-image img {
+    max-height: 275px;
+    width: auto;
+}
+
+/* Bordure qui sépare les liens, articles, ect*/
+
+#secondary .widget li, .post-content hr, input, textarea, .comment-list .depth-1, .light.flat .post-content hr, .light.flat #secondary .widget li{
+
+border-color:rgb(207 207 207);
+/*border-color:rgb(71, 74, 74);*/ /*Pour Mode nuit*/
+	
+}</style>
+<!-- end Simple Custom CSS and JS -->

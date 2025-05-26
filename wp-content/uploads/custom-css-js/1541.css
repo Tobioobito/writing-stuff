@@ -1,0 +1,61 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.reading_tools {
+  position: relative;
+  z-index: 10;
+}
+
+.entry-content {
+  position: relative;
+  z-index: 10;
+  overflow: visible; /* Permet au contenu de l'infobulle de deborder au top de l'article */
+}
+
+.infobulle-mot {
+    position: relative;
+
+  border-bottom: 2.5px dotted #fb2056;
+  cursor: help;
+  display: inline-block;
+}
+
+.infobulle-contenu {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px;
+
+  /* Position the tooltip */
+position: absolute;
+	  z-index: 1000;
+  bottom: 100%;
+  left: 40%; /*Postion horizontale de l'infobulle, plus on diminue plus c'est sur la gauche (50% = début de l'infobulle au milieu)*/
+  white-space: nowrap;
+  width: auto; 
+  max-width: none;
+	
+  font-size : 75%; /*Selon la taille du texte de l'article*/
+}
+
+.infobulle-mot:hover .infobulle-contenu{
+
+  visibility: visible;
+
+}
+
+.infobulle-mot .infobulle-contenu::after { /*Fleche */
+  content: "";
+  position: absolute;
+  top: 100%; 
+  left: var(--arrow-left); /*variable js */
+  right: var(--arrow-right);
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->
