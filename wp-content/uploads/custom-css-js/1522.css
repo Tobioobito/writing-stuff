@@ -1,0 +1,66 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.comment-respond #submit {
+	
+	background: linear-gradient(#fb2056, #fb2056);
+	
+}
+
+.comment-respond #submit:hover {
+	
+	background: linear-gradient(#d7204d, #d7204d);
+	
+}
+
+.comment-form-author{
+	width:30%;
+	float:left;
+	margin-right:5%;
+}
+
+#author{
+	color:#141414;
+	background-color:#f4f4f4;
+}
+
+.comment-form-email{
+	width:30%;	
+	float:left;
+	margin-right:5%;
+}
+
+#email{
+	color:#141414;
+	background-color:#f4f4f4;
+}
+
+.comment-form-url{
+	width:30%;
+	float:left;
+}
+
+#url{
+	color:#141414;
+	background-color:#f4f4f4;
+}
+
+#comment{
+	background-color:#f4f4f4;
+}
+
+#comment:focus{
+	
+	color:#141414;
+	
+}
+
+.post-comments{
+	padding-top: 0px;
+    padding-bottom: 0px;	
+}
+
+.comments-area{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}</style>
+<!-- end Simple Custom CSS and JS -->

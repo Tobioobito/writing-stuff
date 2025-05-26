@@ -1,0 +1,22 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/*PAS UTILISE OU UTILISATION INCONNU A VOIR POUR LA REFONTE*/
+
+.newsletter-text{
+	
+	font-weight: normal;
+	
+}
+
+.newsletter-text a{
+	color:#fb2056 !important;
+	font-weight: normal;
+	
+}
+
+.newsletter-text a:hover{
+	text-decoration :underline;
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->

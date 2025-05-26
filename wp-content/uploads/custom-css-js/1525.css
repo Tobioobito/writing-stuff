@@ -1,0 +1,25 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/*about me page*/
+.page-id-243 .site-content .container{ 
+	
+
+}
+
+/*contact page*/
+.page-id-411 .site-content .container{ 
+}
+
+/*button contact*/
+#wpforms-submit-240{ 
+	text-align:right;
+	background-color: #fb2056;
+	color:white;
+}
+
+#wpforms-submit-240:hover{ 
+	background-color: #d7204d;
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->

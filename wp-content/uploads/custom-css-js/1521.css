@@ -1,0 +1,85 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+@media screen and (max-width: 1280px) {
+
+	
+	.about-title{
+
+	  font-size: 0.6em !important;
+	  font-weight: 300 !important;
+	  padding: 0.15em 0em !important;
+	  letter-spacing: 3.75px !important;
+	  padding: 7.5px !important;
+	  margin-top : 20px !important;
+
+	}
+}
+
+@media screen and (max-width: 980px) {
+
+		.about-button{
+	
+	  display:none;
+	}
+	
+}
+
+@media screen and (max-width: 768px) {
+  .wp-dark-mode-switcher {
+    right: 60px !important;
+  }
+	    .site-title {
+        font-size: 2em;
+    }
+	
+.about-button{
+	  display:block;
+	}
+
+	.about-title{
+		      margin-top: 5px !important;
+	}
+
+}
+
+@media screen and (max-width: 490px) {
+  div.post-comment {
+    display:none;
+  }
+	
+  div.post-date {
+    width:100%;
+  }
+  div.post-category {
+    display:none;
+  }
+}
+
+@media screen and (max-width: 359px) {
+
+		.about-button{
+	
+	  display:none;
+	}
+	
+}
+
+.menu-toggle:hover{
+	background: #fb2056 !important;
+	border-color: #fb2056 !important;
+	
+}
+
+.menu-toggle:active{
+	background: #fb2056 !important;
+	border-color: #fb2056 !important;
+	
+}
+
+.menu-toggle:focus{
+	background: #fb2056 !important;
+	border-color: #fb2056 !important;
+	
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

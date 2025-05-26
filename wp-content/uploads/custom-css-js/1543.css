@@ -1,0 +1,42 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+@media screen and (max-width: 1280px) {
+
+	.about-title{
+
+	  font-size: 0.6em;
+	  font-weight: 300;
+	  padding: 0.15em 0em;
+	  letter-spacing: 3.75px;
+		border: 1.5px solid;
+		padding: 7.5px;
+
+	}
+
+	.about-button{
+
+	    top: 85%;
+	}
+}
+
+@media (max-width: 768px) {
+  .wp-dark-mode-switcher {
+    right: 60px !important;
+  }
+}
+
+@media (max-width: 490px) {
+  span.comments-link {
+    display:none;
+  }
+}
+	
+@media (max-width: 330px) {
+  span.post-date {
+    display:none;
+  }
+	
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->

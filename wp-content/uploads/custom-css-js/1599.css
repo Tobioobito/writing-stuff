@@ -1,0 +1,182 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Adjusted size switch styling (55px width) */
+.switch {
+    /*position: relative; */
+	display: inline-block;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #39393d;
+    /*transition: .4s; */
+	height:30px;
+	width: 58px;
+	margin-top: 5px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 22px; /* Taille du rond */
+    width: 22px;  /* Taille du rond */
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+   /* transition: .4s; */
+}
+
+/* Icons inside the switch */
+.left-icon, .right-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px; /* Adjust icon size */
+    color: #fff;
+}
+
+.left-icon {
+    left: 8px; /* Position soleil */
+}
+
+.right-icon {
+    right: 8px; /* Position lune */
+}
+
+/* When the switch is toggled on */
+input:checked + .slider {
+  /*  background-color: #2196F3; */
+}
+
+input:checked + .slider:before {
+    transform: translateX(28px); /* Adjust knob sliding distance */
+}
+
+/* Rounded switch */
+.slider.round {
+    border-radius: 30px; /* Adjust for the new height */
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////*/
+
+
+body.mode-nuit {
+	
+		background-color:rgb(36, 37, 37);
+}
+
+.mode-nuit a,
+.mode-nuit li,
+.mode-nuit p, 
+.mode-nuit aside{
+		border-top : 0px !important;/*Navigation*/
+		color : rgb(209, 203, 194) !important;
+}
+
+
+.mode-nuit#reader-mode, 
+.mode-nuit#change-width, 
+.mode-nuit#increase-font-size, 
+.mode-nuit#decrease-font-size{
+	color : rgb(209, 203, 194);
+}
+
+.mode-nuit a:hover{
+	color: #ebebeb !important;
+	
+}
+
+.mode-nuit #site-navigation{
+
+			background-color:rgb(36, 37, 37);
+}
+
+.mode-nuit .menu-toggle .icon-bar{
+	   background-color:rgb(255 0 0);
+	
+}
+
+.mode-nuit .sub-menu {
+	border : none;
+	background-color:rgb(36, 37, 37) !important;
+	
+}
+
+.mode-nuit .post-content, .mode-nuit #secondary .widget, .mode-nuit .read-more a, .mode-nuit .nav-links, .mode-nuit .next-post, .mode-nuit .prev-post, .mode-nuit .post-comments, .mode-nuit .comment-respond, .mode-nuit .comments-area, .mode-nuit input{
+	/*background-color:rgb(36, 37, 37);*/
+	background-color:rgb(44, 46, 46);
+	
+}
+
+.mode-nuit .main-navigation .primary-menu>li>a {
+	   border-bottom: 0px;
+	
+}
+
+
+.mode-nuit .navbar-brand:hover{
+	color:white;
+}
+
+.mode-nuit .btn-default:visited{
+	
+	color:rgb(190, 183, 171);
+	
+}
+
+.mode-nuit h3, .mode-nuit h2 { /*Sous-titre dans l'article*/
+	color:rgb(209, 203, 194);
+}
+
+.mode-nuit .widget-title {
+	color:rgb(209, 203, 194);
+}
+
+.mode-nuit .entry-title  {
+	color:rgb(209, 203, 194);
+}
+
+.mode-nuit .entry-date, .mode-nuit .comments-link, .mode-nuit .post-category>a   {
+	color:rgb(209, 203, 194);
+}
+
+.mode-nuit .entry-content a{
+	
+color : #fb2056 !important;	
+	
+}
+
+
+.mode-nuit .infobulle-mot:hover .infobulle-contenu {
+	
+	background-color:white !important;
+	color: black !important;
+	
+}
+
+.mode-nuit .infobulle-mot .infobulle-contenu::after{
+
+	 border-color: white transparent transparent transparent;
+}
+/*Section Commentaire*/
+input.mode-nuit, textarea.mode-nuit{
+	background-color: rgb(36, 37, 37) !important;
+	color:rgb(209, 203, 194) !important;
+}</style>
+<!-- end Simple Custom CSS and JS -->
